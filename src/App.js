@@ -1,7 +1,10 @@
+import {Users} from "./components/Users";
+
 const App = () => {
+
     return (
         <div>
-            App
+            <Users/>
         </div>
     );
 };
