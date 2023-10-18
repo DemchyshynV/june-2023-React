@@ -1,0 +1,6 @@
+.User{
+    margin: 10px;
+    border: 1px solid yellow;
+    width: calc(20% - 22px);
+    box-shadow: 5px 5px 5px red;
+}
