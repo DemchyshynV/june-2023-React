@@ -1,7 +1,12 @@
+import {Users} from "./Users";
+
 const App = () => {
+    const handler =()=>{
+        console.log('HI');
+    }
     return (
         <div>
-            App
+            <Users asd={1} handler={handler}/>
         </div>
     );
 };
