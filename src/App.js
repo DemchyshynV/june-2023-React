@@ -1,9 +1,9 @@
-import {PostsContainer} from "./components/PostsContainer/PostsContainer";
+import {CarsContainer} from "./components/CarsContainer/CarsContainer";
 
 const App = () => {
     return (
         <div>
-            <PostsContainer/>
+            <CarsContainer/>
         </div>
     );
 };
