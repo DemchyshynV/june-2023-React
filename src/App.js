@@ -1,9 +1,30 @@
+import {A} from "./components/A";
+import {useAppContext} from "./hooks/useAppContext";
+
+
 const App = () => {
+    let value = useAppContext();
     return (
         <div>
-            App
+            <A/>
         </div>
     );
 };
 
-export {App};
+export {
+    App
+};
+
+// import {MyComponent} from "./components/MyComponent";
+//
+// const App = () => {
+//     return (
+//         <div>
+//             <MyComponent>
+//                 <h1>Hello</h1>
+//             </MyComponent>
+//         </div>
+//     );
+// };
+//
+// export {App};
