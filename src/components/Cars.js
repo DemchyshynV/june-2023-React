@@ -2,7 +2,6 @@ import {useEffect} from "react";
 import {useDispatch, useSelector} from "react-redux";
 
 import {Car} from "./Car";
-import {carService} from "../services";
 import {carActions} from "../redux";
 
 const Cars = () => {

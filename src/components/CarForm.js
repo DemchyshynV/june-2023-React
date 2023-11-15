@@ -15,7 +15,7 @@ const CarForm = () => {
             setValue('price', carForUpdate.price)
             setValue('year', carForUpdate.year)
         }
-    }, [carForUpdate]);
+    }, [carForUpdate, setValue]);
 
     const update = async (car) => {
         await dispatch(carActions.updateById({id: carForUpdate.id, car: car}))
