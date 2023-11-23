@@ -1,7 +1,13 @@
+import {Posts} from "./components/Posts";
+import {Comments} from "./components/Comments";
+import {Cars} from "./components/Cars";
+
 const App = () => {
     return (
         <div>
-            App
+            {/*<Posts/>*/}
+            {/*<Comments/>*/}
+            <Cars/>
         </div>
     );
 };
